@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Example</title>
+    <link rel="stylesheet" href="example_and-explain_javascript.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>JavaScript Example</h1>
+            <p>Learn how JavaScript can interact with HTML and CSS</p>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <div class="main-container">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar">
+            <ul>
+                <li><a href="#intro">Introduction</a></li>
+                <li><a href="#example">JavaScript Example</a></li>
+                <li><a href="#explanation">Explanation</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content Section -->
+        <div class="content">
+            <section id="intro">
+                <h2>Introduction to JavaScript</h2>
+                <p>JavaScript is a versatile programming language used to make web pages interactive. It can modify the content of HTML elements, create animations, validate forms, and much more.</p>
+            </section>
+
+            <section id="example">
+                <h2>JavaScript Example: Greet User</h2>
+                <p>In this example, we will take the user's name as input and then display a personalized greeting message.</p>
+                
+                <label for="name">Enter your name:</label>
+                <input type="text" id="name" placeholder="Your name">
+                <button onclick="greetUser()">Greet Me!</button>
+                
+                <div id="output"></div>
+            </section>
+
+            <section id="explanation">
+                <h2>Explanation of the Example</h2>
+                <p>The JavaScript code below does the following:</p>
+                <ul>
+                    <li><strong>getElementById("name")</strong>: This grabs the value entered by the user in the input field.</li>
+                    <li><strong>innerHTML</strong>: Updates the content of the <code>&lt;div&gt;</code> element with a personalized greeting message.</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 JavaScript Learning. All rights reserved.</p>
+    </footer>
+
+    <script src="example_and-explain_javascript.js"></script>
+</body>
+</html>

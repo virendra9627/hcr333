@@ -1,0 +1,144 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+header nav ul li a:hover {
+    color: #ffdd57;
+}
+
+/* Main Container */
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    width: 250px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    height: 100vh;
+}
+
+.sidebar h2 {
+    color: #ffdd57;
+}
+
+.sidebar ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.sidebar ul li a:hover {
+    color: #ffdd57;
+}
+
+/* Main Content Area */
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.main-content h2 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.main-content p {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+
+.courses {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.course {
+    background-color: #fff;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.course h3 {
+    color: #333;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.course p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.course a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.course:hover {
+    transform: scale(1.05);
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

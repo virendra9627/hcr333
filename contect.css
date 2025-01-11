@@ -1,0 +1,132 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+header nav ul li a:hover {
+    color: #ffdd57;
+}
+
+/* Main Content Container */
+.container {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Personal Details Section */
+.personal-details {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.personal-details h2 {
+    color: #4CAF50;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.details p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.details strong {
+    color: #4CAF50;
+}
+
+/* Contact Form Section */
+.contact-form {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    color: #4CAF50;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.contact-form button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

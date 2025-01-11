@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Introduction</title>
+    <link rel="stylesheet" href="intuduction_css.css">
+</head>
+
+<body>
+    <header>
+        <h1>Introduction to CSS</h1>
+        <p>Learn CSS: The essential tool for styling your web pages</p>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>What is CSS?</h2>
+            <p>
+                CSS stands for Cascading Style Sheets. It is a language used to describe the presentation of HTML
+                documents. It defines the layout, design, and appearance of the content on a webpage.
+            </p>
+           <p> <ul>
+            <p> <li> It allows you to apply styles to HTML documents by 
+                    prescribing colors, fonts, spacing, and positioning.</li> </p>
+            
+                    <p> <li> The main advantages are separation of content (in
+                     HTML) and styling (in CSS) and the same CSS rules
+                      can be used across all pages and not have to be 
+                      rewritten.</li> </p>
+            
+                      <p><li> HTML uses tags and CSS uses rule sets. </li></p>
+            
+                      <p> <li> CSS styles are applied to the HTML element using 
+                    selectors. </li></p>
+        </ul> </p>
+        </section>
+<section class="why css">
+    <h1> why CSS?</h1>
+    <P> <B>Saves Time:</B> Write CSS once and reuse it across multiple HTML pages. </P>
+        <P> <B>Easy Maintenance:</B> Change the style globally with a single modification.</P>
+         <P><B>Search Engine Friendly:</B>Clean coding technique that improves readability for search engines.
+            Superior Styles: Offers a wider array of attributes compared to HTML.</P>
+         <P> <B>Offline Browsing:</B> CSS can store web applications locally using offline cache, allowing offline viewing.</P>
+         
+    
+
+</section>
+        <section class="syntax">
+            <h2>CSS Syntax</h2>
+            <p>
+                CSS consists of style rules that are interpreted by the browser and applied to the corresponding elements. A style rule set includes a selector and a declaration block.
+            </p>
+            <ul>
+                <li><b>Selector:</b>Targets specific HTML elements to apply styles. </li>
+                <li><b>Declaration:</b> Combination of a property and its corresponding value.</li>
+            </ul>
+            <pre>
+                <code>
+                    // HTML Element
+                    
+                    // CSS Style
+                    h1 { color: blue; font-size: 12px; }
+                    
+                    Where -
+                    Selector - h1
+                    Declaration - { color: blue; font-size: 12px; }
+                </code>
+            </pre>
+            <ul> 
+                <p><li>The selector points to the HTML element that you want to style.  </li> </p>
+
+            <p>  <li> The declaration block contains one or more declarations separated by semicolons. </li></p>
+
+        <p>  <li> Each declaration includes a CSS property name and a value, separated by a colon.  </li></p>
+
+            </ul>
+        </section>
+
+        <section class="why-learn">
+            <h2>Why Learn CSS?</h2>
+            <ul>
+                <p><li>Helps you control the layout of your web pages.</li></p>
+
+                <p><li>Allows you to make your website visually appealing.</li></p>
+
+                <p><li>Improves user experience by providing a well-designed interface.</li></p>
+
+                <p><li>Responsive design to make your website look good on all devices (mobile, tablet, desktop).</li></p>
+
+            </ul>
+        </section>
+
+        <section class="example">
+            <h2>CSS Example</h2>
+            <p>This paragraph will be styled with CSS:</p>
+            <div class="box">This box has a background color and padding applied using CSS.</div>
+            <button onclick="changeColor()">Click to Change Box Color</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 CSS Learning</p>
+    </footer>
+
+    <script>
+        // JavaScript to change the color of the box when the button is clicked
+        function changeColor() {
+            document.querySelector(".box").style.backgroundColor = "lightgreen";
+        }
+    </script>
+</body>
+
+</html>

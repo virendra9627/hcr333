@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tags and Elements</title>
+    <link rel="stylesheet" href="tutorial_thml_tag_elements.css">
+</head>
+<body>
+
+    <header>
+        <h1>HTML Tags and Elements</h1>
+        <nav>
+            <ul>
+                <li><a href="#intro">Introduction</a></li>
+                <li><a href="#tags">HTML Tags</a></li>
+                <li><a href="#elements">HTML Elements</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Introduction Section -->
+        <section id="intro">
+            <h2>What are HTML Tags and Elements?</h2>
+            <p>HTML tags are the building blocks of web pages. Tags are used to define elements on the page, such as headings, paragraphs, links, images, and more.</p>
+            <p>An HTML element generally consists of an opening tag, content, and a closing tag. For example: <code>&lt;p&gt;This is a paragraph&lt;/p&gt;</code>.</p>
+        </section>
+
+        <!-- HTML Tags Section -->
+        <section id="tags">
+            <h2>Common HTML Tags</h2>
+            <div class="tag-demo">
+                <h3>&lt;h1&gt; - Heading Tag</h3>
+                <p>This is an example of a heading tag. It is typically used for the main heading of a page.</p>
+                <pre><code>&lt;h1&gt;This is a Heading&lt;/h1&gt;</code></pre>
+                <p><strong>Output:</strong> <span id="outputH1">This is a Heading</span></p>
+            </div>
+
+            <div class="tag-demo">
+                <h3>&lt;p&gt; - Paragraph Tag</h3>
+                <p>The &lt;p&gt; tag is used for defining a paragraph.</p>
+                <pre><code>&lt;p&gt;This is a paragraph.&lt;/p&gt;</code></pre>
+                <p><strong>Output:</strong> <span id="outputP">This is a paragraph.</span></p>
+            </div>
+
+            <div class="tag-demo">
+                <h3>&lt;a&gt; - Anchor Tag (Link)</h3>
+                <p>The &lt;a&gt; tag is used to create hyperlinks to other pages or websites.</p>
+                <pre><code>&lt;a href="https://www.example.com"&gt;Visit Example&lt;/a&gt;</code></pre>
+                <p><strong>Output:</strong> <a href="https://www.example.com" target="_blank" id="outputA">Visit Example</a></p>
+            </div>
+        </section>
+
+        <!-- HTML Elements Section -->
+        <section id="elements">
+            <h2>HTML Elements</h2>
+            <div class="element-demo">
+                <h3>&lt;img&gt; - Image Element</h3>
+                <p>The &lt;img&gt; tag is used to embed an image in a webpage.</p>
+                <pre><code>&lt;img src="https://via.placeholder.com/150" alt="Placeholder Image"&gt;</code></pre>
+                <p><strong>Output:</strong> <img src="https://via.placeholder.com/150" alt="Placeholder Image" id="outputImg"></p>
+            </div>
+
+            <div class="element-demo">
+                <h3>&lt;ul&gt; - Unordered List Element</h3>
+                <p>The &lt;ul&gt; tag is used to define an unordered list.</p>
+                <pre><code>&lt;ul&gt;
+  &lt;li&gt;Item 1&lt;/li&gt;
+  &lt;li&gt;Item 2&lt;/li&gt;
+  &lt;li&gt;Item 3&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+                <p><strong>Output:</strong></p>
+                <ul id="outputUL">
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 HTML Learning Platform. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

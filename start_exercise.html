@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML Exercise: Create a Simple Web Page</title>
+    <link rel="stylesheet" href="exercise.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>HTML Exercise: Create a Simple Web Page</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tutorials.html">Tutorials</a></li>
+                <li><a href="start_exercise.html">Exercises</a></li>
+                <li><a href="contect.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <section class="exercise">
+            <h2>Build Your First Web Page</h2>
+            <p>Use the editor below to create a simple HTML web page. You can add a heading, paragraph, and any content you like!</p>
+
+            <!-- HTML Code Editor -->
+            <div class="editor">
+                <textarea id="htmlCode" placeholder="Write your HTML code here..."></textarea>
+            </div>
+
+            <!-- Preview Section -->
+            <div class="preview">
+                <h3>Preview:</h3>
+                <iframe id="previewFrame"></iframe>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="submit">
+                <button onclick="updatePreview()">Preview Code</button>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 My Learning Platform. All rights reserved.</p>
+    </footer>
+
+    <script src="exercise.js"></script>
+</body>
+</html>
